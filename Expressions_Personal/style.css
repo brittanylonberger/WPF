@@ -27,3 +27,18 @@ text-align: center;
 margin: 0;
 padding:0;
 }
+
+.copy {
+font-family: arial;
+font-size: 11px;
+color: #fff;
+text-decoration: none;
+}
+
+.copy a:link, a:visited, a:active {
+text-decoration: none;
+color: #bccbdc;
+}
+.copy a:hover {
+text-decoration: line-through;
+}
