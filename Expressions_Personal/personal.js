@@ -11,5 +11,8 @@ var detCost = 11.97;
 var totOz = 100;
 
 
+alert(soapAmnt * loadWeek / totOZ * detCost * 52);
+
+
 
 
