@@ -12,7 +12,6 @@ var launTot = 100;
 
 var step1;
 step1 = soapAmnt * loadWeek / launTot * detCost * 52;
-myInt;
 
 
 
