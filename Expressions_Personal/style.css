@@ -21,6 +21,9 @@ h2 {
 font-family: century gothic;
 font-size: 15px;
 font-variant: small-caps;
+font-weight: normal;
 color: #fff;
 text-align: center;
+margin: 0;
+padding:0;
 }
