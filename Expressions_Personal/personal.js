@@ -10,8 +10,9 @@ var loadWeek = prompt("Enter the total number of loads of laundry you do per wee
 var detCost = 11.97;
 var totOz = 100;
 
-
-alert(soapAmnt * loadWeek / totOZ * detCost * 52);
+var step1;
+step1 = soapAmnt * loadWeek;
+alert(step1);
 
 
 
