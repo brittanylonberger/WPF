@@ -13,9 +13,9 @@ var launTot = 100;
 var step1;
 step1 = soapAmnt * loadWeek / launTot * detCost * 52;
 
+var myRound = parseInt(step1);
 
-
-alert(" It looks like you spend approximately " + " $ " + step1 + " per year on laundry detergent. Wow! ");
+alert(" It looks like you spend approximately " + " $ " + myRound + " per year on laundry detergent. Wow! ");
 
 
 
