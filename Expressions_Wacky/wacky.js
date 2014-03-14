@@ -15,3 +15,7 @@ var uniHair = 17000;
 var pi = 3.14;
 
 console.log("And your unicorn's left nostril contains " + uniHair + " hairs.. ");
+
+var fairyConv;
+fairyConv = uniWeight * pi / megMil + uniHair;
+
