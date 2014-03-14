@@ -4,15 +4,15 @@
 
 var aspectRatio = new Array();
 
-	aspectRatio[0] = "800";
-	aspectRatio[1] = "600";
-	aspectRatio[2] = "300";
+	aspectRatio[0] = prompt("Original Height (in pixels) of Image Being Rescaled", 800);
+	aspectRatio[1] = prompt("Original Width (in pixels) of Image Being Rescaled", 600);
+	aspectRatio[2] = prompt("How Wide (in pixels) Will the Image Be After Rescaling?", 450);
 
 var newHeight = aspectRatio[0] / aspectRatio[1] * aspectRatio[2];
 
 console.log(newHeight);
 
-alert(newHeight);
+alert("The new height of your image is: " + newHeight + " pixels.");
 
 
 
