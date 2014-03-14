@@ -5,10 +5,13 @@
 
 var uniWeight = 100;
 
-console.log("If your unicorn weighs " + uniWeight + " pounds..");
+console.log("If your unicorn weighs " + uniWeight + " pounds,");
 
 var megMil = "2300";
 
-console.log("And your unicorn's horn contains " + megMil + " megillagrams of magic.. ");
+console.log("And if the unicorn's horn contains " + megMil + " megillagrams of magic, ");
 
 var uniHair = 17000;
+var pi = 3.14;
+
+console.log("And your unicorn's left nostril contains " + uniHair + " hairs.. ");
