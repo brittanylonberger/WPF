@@ -19,3 +19,7 @@ console.log("And your unicorn's left nostril contains " + uniHair + " hairs.. ")
 var fairyConv;
 fairyConv = uniWeight * pi / megMil + uniHair;
 
+var myRound = parseInt(fairyConv);
+
+console.log("With the amount of unicorn you have, you can convert that to " + myRound + "fairies.");
+
