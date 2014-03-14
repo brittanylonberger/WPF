@@ -12,5 +12,7 @@ var newHeight = aspectRatio[0] / aspectRatio[1] * aspectRatio[2];
 
 console.log(newHeight);
 
+alert(newHeight);
+
 
 
