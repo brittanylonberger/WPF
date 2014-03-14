@@ -8,7 +8,7 @@ var aspectRatio = new Array();
 	aspectRatio[1] = "600";
 	aspectRatio[2] = "300";
 
-var newHeight = \(aspectRatio[0] / aspectRatio[1] \) x aspectRatio[2];
+var newHeight = aspectRatio[0] / aspectRatio[1] * aspectRatio[2];
 
 console.log(newHeight);
 
