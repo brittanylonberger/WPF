@@ -25,9 +25,12 @@ console.log("$" + downPmnt + " is your down payment.");
 var loanLife = prompt("What is the life of the loan you will recieve, (in months)?");
 console.log(loanLife + " is the life of your loan in months.");
 
-var total = alert(_carPrice - downPmnt / loanLife + " is the dollar amount of your monthly payments");
-console.log("$" + total + " is the payments you would have to make monthly.");
+var total = _carPrice - downPmnt / loanLife;
+alert(total);
+console.log("You would have to make monthly payments of $" + total);
 
-if(loanLife > 250){
-	alert
+if(total > 250){
+	alert("It seems that you will not be able to afford this car.");
+}else {
+	alert("This car is totally affordable!")
 }
