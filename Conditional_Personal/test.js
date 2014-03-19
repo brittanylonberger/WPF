@@ -25,7 +25,7 @@ console.log("$" + downPmnt + " is your down payment.");
 var loanLife = prompt("What is the life of the loan you will recieve, (in months)?");
 console.log(loanLife + " is the life of your loan in months.");
 
-var total = alert(_carPrice - downPmnt / loanLife + "are your monthly payments");
+var total = alert(_carPrice - downPmnt / loanLife + " is the dollar amount of your monthly payments");
 console.log("$" + total + " is the payments you would have to make monthly.");
 
 if(loanLife > 250){
