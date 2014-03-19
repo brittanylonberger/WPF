@@ -2,9 +2,11 @@
 // This equation with a conditional will answer the question, "Can I afford this car?"
 
 var carPrice = prompt("How much is the total cost of the car you are looking to buy?");
+
 // if the variable for the price of the car is not entered
 if(carPrice == ""){
 	alert("You seem to have forgotten something.");
+	// return to carPrice prompt
 }
 
 console.log("$" + carPrice + " is the total cost of the car.");
