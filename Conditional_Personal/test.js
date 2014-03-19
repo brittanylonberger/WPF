@@ -39,9 +39,9 @@ console.log("$" + _downPmnt + " is your down payment.");
 
 
 // Loan life information...
-var _loanLife();
+var _loanLife;
 // To make sure the variable was entered correctly for the loan life...
-function downPmnt(){
+function loanLife(){
 	_loanLife = prompt("What is the life of the loan you will recieve, (in months)?");
 	
 	if(_loanLife == "" || !parseInt(_loanLife)){ // Again, making sure the entered value is a number and is entered...
