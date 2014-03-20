@@ -37,6 +37,7 @@ console.log("You are expecting to work " + weekHours + " hours per week.")
 
 // Using the equation (pay rate * hours per week * 52 weeks per year = salary)
 var total = parseInt(payRate * weekHours * 52);
-alert(total);
-
 console.log("It looks like you will make approximately $" + total + " per year in this position.")
+alert("It looks like you will make approximately $" + total + " per year in this position.");
+
+
