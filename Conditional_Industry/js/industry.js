@@ -60,6 +60,8 @@ console.log("So, you're saying that you need to make $" + goalSal + " per year."
 // The final conditional.
 if(total < goalSal){
 	alert("Uh, oh.. This position's pay rate does not meet your needs.");
+} else {
+	alert("This job is just what you need! Go get it!")
 }
 
 
