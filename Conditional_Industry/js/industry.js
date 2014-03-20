@@ -14,7 +14,7 @@ function _payRate(){
 		return payRate;
 	}
 }
-
+// Run the pay rate prompt
 _payRate();
 console.log("$" + payRate + " is your expected hourly pay rate.");
 
@@ -31,3 +31,6 @@ function _weekHours(){
 		return weekHours;
 	}
 }
+// Run the hours per week prompt
+_weekHours();
+
