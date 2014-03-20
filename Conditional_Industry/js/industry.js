@@ -8,5 +8,9 @@ function _payRate(){
 	payRate = prompt("Enter the hourly rate at which you will receive pay.");
 	
 	if(payrate = "" || !parseInt(payrate)){ // To make sure the inputted data is a number
-		}
+		alert("I think something you entered may be incorrect... Please try again");
+		_payrate();
+	} else {
+		return payrate;
+	}
 }
