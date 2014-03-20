@@ -7,10 +7,18 @@ var payRate;
 function _payRate(){
 	payRate = prompt("Enter the hourly rate at which you will receive pay.");
 	
-	if(payrate = "" || !parseInt(payrate)){ // To make sure the inputted data is a number
+	if(payRate = "" || !parseInt(payRate)){ // To make sure the inputted data is a number
 		alert("I think something you entered may be incorrect... Please try again");
-		_payrate();
+		_payRate();
 	} else {
-		return payrate;
+		return payRate;
 	}
+}
+
+_payRate();
+// Identify work hours per week
+var weekHours;
+// Ensure that the user enters valid values
+function _weekHours(){
+	weekHours = prompt("")
 }
