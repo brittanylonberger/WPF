@@ -7,7 +7,7 @@ var payRate;
 function _payRate(){
 	payRate = prompt("Enter the hourly rate at which you will receive pay.");
 	
-	if(payRate = "" || !parseInt(payRate)){ // To make sure the inputted data is a number
+	if(payRate == "" || !parseFloat(payRate)){ // To make sure the inputted data is a number
 		alert("I think something you entered may be incorrect... Please try again.");
 		_payRate();
 	} else {
@@ -16,6 +16,7 @@ function _payRate(){
 }
 
 _payRate();
+console.log("$" + payRate + " is your expected hourly pay rate.");
 
 // Identify work hours per week
 var weekHours;
@@ -23,7 +24,7 @@ var weekHours;
 function _weekHours(){
 	weekHours = prompt("Enter the number of hours you expect to work in one week.");
 	
-	if(weekHours = "" || !parseInt(weekHours)){
+	if(weekHours == "" || !parseFloat(weekHours)){
 		alert("I think you may have entered something incorrectly... Please try again.");
 		_weekHours();
 	} else {
