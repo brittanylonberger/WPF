@@ -7,7 +7,7 @@ var packGum;
 function _packGum(){
 	packGum = prompt("How many packs of gum do you have?");
 	
-	if(packGum == "" || !parseInt(packGum));
+	if(packGum == "" || !parseInt(packGum)){
 	alert("I know you have some gum.. go back and tell me how much!");
 	_packGum;
 	} else {
@@ -25,7 +25,7 @@ var peepPass;
 function _peepPass(){
 	peepPass = prompt("How many people do you usually walk by throughout the day?");
 	
-	if(peepPass == "" || !parseInt(peepPass));
+	if(peepPass == "" || !parseInt(peepPass)){
 	_peepPass;
 	} else {
 		return peepPass;
