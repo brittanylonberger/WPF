@@ -1,5 +1,5 @@
 // Brittany Lonberger; March 20, 2014; Wacky conditional
-// This script will answer the question, "Did I bring enough gum for everyone?"
+// This script will answer the age old, high school question, "Did I bring enough gum to school?"
 
 // Identify amount of gum variable
 var packGum;
