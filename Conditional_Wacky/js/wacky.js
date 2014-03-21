@@ -19,3 +19,19 @@ function _packGum(){
 _packgum;
 console.log("Ok, so you have " + packGum + " pack(s) of gum.");
 
+// Identify number of people you walk by on a daily basis
+var peepPass;
+// Validation
+function _peepPass(){
+	peepPass = prompt("How many people do you usually walk by throughout the day?");
+	
+	if(peepPass == "" || !parseInt(peepPass));
+	_peepPass;
+	} else {
+		return peepPass;
+	}
+}
+
+// run people passed
+_peepPass;
+console.log("Well, if " + peepPass + " is how many people you pass in a day...");
