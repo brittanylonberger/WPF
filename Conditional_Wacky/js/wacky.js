@@ -16,7 +16,7 @@ function _packGum(){
 }
 
 // run pack gum
-_packgum;
+_packGum();
 console.log("Ok, so you have " + packGum + " pack(s) of gum.");
 
 // Identify number of people you walk by on a daily basis
@@ -33,14 +33,22 @@ function _peepPass(){
 }
 
 // run people passed
-_peepPass;
+_peepPass();
 console.log("Well, if " + peepPass + " is how many people you pass in a day...");
 
 // reminder of information
 console.log("So, if you have " + packGum + " and you walk by " + peepPass + " in a day...");
-alert("So, if you have " + packGum + " and you walk by " + peepPass + " in a day...");
+alert("So, if you have " + packGum + " pack(s) of gum and you walk by " + peepPass + " people in a day...");
 console.log("... and, we'll say that each (full) pack of gum has 15 pieces... ");
 
 // total calcultion
-var total = (packGum * 15) / peepPass;
+var total = (packGum * 15 / peepPass;
 console.log(total);
+
+if(total < peepPass + 1){
+	alert("I don't think you're going to have enough gum.. You better keep your pack hidden until after school.");
+	console.log("I don't think you're going to have enough gum.. You better keep your pack hidden until after school.");
+} else {
+	alert("You might just have enough gum.. But word spreads fast, so I'd still hide it until after school.");
+	console.log("You might just have enough gum.. But word spreads fast, so I'd still hide it until after school.");
+}
