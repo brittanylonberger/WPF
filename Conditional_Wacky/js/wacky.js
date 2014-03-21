@@ -41,3 +41,6 @@ console.log("So, if you have " + packGum + " and you walk by " + peepPass + " in
 alert("So, if you have " + packGum + " and you walk by " + peepPass + " in a day...");
 console.log("... and, we'll say that each (full) pack of gum has 15 pieces... ");
 
+// total calcultion
+var total = (packGum * 15) / peepPass;
+console.log(total);
