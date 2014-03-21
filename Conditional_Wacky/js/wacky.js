@@ -45,10 +45,11 @@ console.log("... and, we'll say that each (full) pack of gum has 15 pieces... ")
 var total = (packGum * 15) - peepPass;
 console.log(total);
 
-if(total < peepPass + 1){
+if(total < 1){
 	alert("I don't think you're going to have enough gum.. You better keep your pack hidden until after school.");
 	console.log("I don't think you're going to have enough gum.. You better keep your pack hidden until after school.");
-} else {
+} 
+if(total > 1){
 	alert("You might just have enough gum.. But word spreads fast, so I'd still hide it until after school.");
 	console.log("You might just have enough gum.. But word spreads fast, so I'd still hide it until after school.");
 }
