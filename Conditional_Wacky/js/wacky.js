@@ -35,3 +35,8 @@ function _peepPass(){
 // run people passed
 _peepPass;
 console.log("Well, if " + peepPass + " is how many people you pass in a day...");
+
+// reminder of information
+console.log("So, if you have " + packGum + " and you walk by " + peepPass + " in a day...");
+alert("So, if you have " + packGum + " and you walk by " + peepPass + " in a day...");
+console.log("... and, we'll say that each (full) pack of gum has 15 pieces... ");
