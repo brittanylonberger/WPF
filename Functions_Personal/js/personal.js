@@ -8,13 +8,24 @@ function _monBudg(){
 	var monIn = prompt("Please input your average monthly income (in dollars).");
 	var monEx = prompt("Please input your average monthly expenses (in dollars).");
 	
-	if (monIn == "" || !parseFloat(monIn, monEx)) {
+	if (monIn == "" || !parseFloat(monIn)) {
 		alert("It looks like your input was in an incorrect format. Please go back and try again.");
-		_monBudg();
+		monIn();
 	} else{
-		return;
-	};
+		return monIn;
+	}
+
+console.log(monIn);
+
+	if (monEx == "" || !parseFloat(monEx)){
+		alert("It looks like your input was in an incorrect format. Please go back and try again.");
+		monEx();
+	} else {
+		return monEx;
+	}
+	
+console.log(monEx);
+
 }
 
 _monBudg();
-console.log(_monBudg);
