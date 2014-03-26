@@ -12,19 +12,15 @@ function _monBudg(){
 		alert("It looks like your input was in an incorrect format. Please go back and try again.");
 		_monBudg();
 	} else{
-		return;
+		console.log("Your monthly income is $" + monIn);
 	}
-
-console.log(monIn);
 
 	if (monEx == "" || !parseFloat(monEx)){
 		alert("It looks like your input was in an incorrect format. Please go back and try again.");
-		var monEx;
+		_monBudg();
 	} else {
-		return;
+		console.log("Your monthly expenses total $" + monEx);
 	}
-	
-console.log(monEx);
 
 }
 
