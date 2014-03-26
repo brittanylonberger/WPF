@@ -15,3 +15,6 @@ function _monBudg(){
 		return;
 	};
 }
+
+_monBudg();
+console.log(_monBudg);
