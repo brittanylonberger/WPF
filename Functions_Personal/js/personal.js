@@ -10,7 +10,7 @@ function _monBudg(){
 	
 	if (monIn == "" || !parseFloat(monIn)) {
 		alert("It looks like your input was in an incorrect format. Please go back and try again.");
-		var monIn;
+		_monBudg();
 	} else{
 		return;
 	}
