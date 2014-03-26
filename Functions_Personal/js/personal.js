@@ -10,18 +10,18 @@ function _monBudg(){
 	
 	if (monIn == "" || !parseFloat(monIn)) {
 		alert("It looks like your input was in an incorrect format. Please go back and try again.");
-		monIn();
+		var monIn();
 	} else{
-		return monIn;
+		return;
 	}
 
 console.log(monIn);
 
 	if (monEx == "" || !parseFloat(monEx)){
 		alert("It looks like your input was in an incorrect format. Please go back and try again.");
-		monEx();
+		var monEx();
 	} else {
-		return monEx;
+		return;
 	}
 	
 console.log(monEx);
