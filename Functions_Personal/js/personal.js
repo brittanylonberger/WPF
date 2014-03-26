@@ -31,4 +31,5 @@ function _monBudg(){
 
 }
 
+// run the budget calculating funtion
 _monBudg();
