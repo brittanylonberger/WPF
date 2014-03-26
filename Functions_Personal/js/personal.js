@@ -30,13 +30,14 @@ function _monBudg(){
 	
 	// calculate the amount of income left over after monIn - monEx
 	var leftOver = monIn - monEx;
+	console.log("After subracting your monthly expenses from your monthly income, it seems that you will have $" + leftOver + " remaining.")
 	
 	// can you afford your monthly expenses?
 	var _result = leftOver > 0 ? true : false;
 	if(_result)
 	console.log("You should be able to manage your monthly expenses. Yay!");
 	else 
-	console.log("I think you've bit off more than you can chew on expenses..");
+	console.log("I think you've bitten off more than you can chew on expenses..");
 	return;
 }
 
