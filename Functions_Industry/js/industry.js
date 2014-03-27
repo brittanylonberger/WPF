@@ -6,7 +6,7 @@
 
 
 // Identify the circumference of the circle.
-var circCirc = function {
+var circCirc = function () {
 	prompt("What is the circumference of the circle (as a number, in inches, with a decimal. Example: 10.0 inches)");
 	
 	if (circCirc == "" || !parseInt(circCirc)){
