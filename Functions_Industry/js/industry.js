@@ -6,18 +6,18 @@
 
 
 // Identify the circumference of the circle.
-var circCirc = function () {
-	prompt("What is the circumference of the circle (as a number, in inches, with a decimal. Example: 10.0 inches)");
-	
-	if (circCirc == "" || !parseFloat(circCirc)){
-		alert("Something isn't right there.. Please enter your information again.");
+function circCirc(){
+	var _circCirc = prompt("What is the circumference of the circle (as a number, in inches, with a decimal. Example: 10.0 inches)");
+
+	// Validation if input
+	if (circCirc == "" || !parseFloat(cirCirc)){
+		alert("You did something wrong.");
 		circCirc();
 	} else {
-		console.log(circCirc);
+		conosole.log(circCirc);
 		return;
 	}
 }
 
 circCirc();
-
 
