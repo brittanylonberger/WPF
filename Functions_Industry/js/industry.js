@@ -13,6 +13,9 @@ function circCirc(){
 	if (_circCirc == "" || !parseFloat(_circCirc)){
 		alert("You did something wrong.");
 		circCirc();
+	} else if ( (_circCirc < 0) ){
+		alert("Your number cannot be negative. Sorry. :/");
+		circCirc();
 	} else {
 		console.log("The circumference of your circle is " + _circCirc + " inches."); // log results
 	}
