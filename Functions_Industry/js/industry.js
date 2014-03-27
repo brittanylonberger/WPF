@@ -25,5 +25,7 @@ function circCirc(){
 	console.log("The diameter of your circle is " + total + " inches."); // log results
 }
 
+
+// Run function
 circCirc();
 
