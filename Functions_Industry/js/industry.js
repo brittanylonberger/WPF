@@ -9,15 +9,18 @@
 function circCirc(){
 	var _circCirc = prompt("What is the circumference of the circle (as a number, in inches, with a decimal. Example: 10.0 inches)");
 
-	// Validation if input
+	// Validation of input
 	if (_circCirc == "" || !parseFloat(_circCirc)){
 		alert("You did something wrong.");
 		circCirc();
 	} else {
-		conosole.log(circCirc);
+		console.log(_circCirc);
 		return;
 	}
 }
 
 circCirc();
 
+var total = function(){
+	
+}
