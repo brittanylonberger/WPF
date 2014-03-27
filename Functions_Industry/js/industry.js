@@ -14,12 +14,12 @@ function circCirc(){
 		alert("You did something wrong.");
 		circCirc();
 	} else {
-		console.log("The circumference of your circle is " + _circCirc + " inches.");
+		console.log("The circumference of your circle is " + _circCirc + " inches."); // log results
 	}
 	
 	// Calculate diameter with the equation - Circumference / pi(3.14)
 	var total = parseFloat(_circCirc / 3.14);
-	console.log("The diameter of your circle is " + total + " inches.")
+	console.log("The diameter of your circle is " + total + " inches."); // log results
 }
 
 circCirc();
