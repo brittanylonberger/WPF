@@ -10,7 +10,7 @@ function circCirc(){
 	var _circCirc = prompt("What is the circumference of the circle (as a number, in inches, with a decimal. Example: 10.0 inches)");
 
 	// Validation if input
-	if (circCirc == "" || !parseFloat(cirCirc)){
+	if (_circCirc == "" || !parseFloat(_circCirc)){
 		alert("You did something wrong.");
 		circCirc();
 	} else {
