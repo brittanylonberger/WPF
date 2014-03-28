@@ -33,7 +33,7 @@ function shape(){
 		alert("Number not within parameters.");
 		shape();
 	}
-	else if (sha == "" || !parseInt(sha)){
+	else if (sha == "" || parseFloat(sha)){
 		alert("Sorry, has to be a valid number.");
 		shape();
 	} else {
@@ -58,7 +58,7 @@ function circle(){
 		alert("Number not within parameters.");
 		circle();
 	}
-	else if (cir == "" || !parseInt(cir)){
+	else if (cir == "" || !parseFloat(cir)){
 		alert("Sorry, has to be a valid number.");
 		circle();
 	} else {
@@ -69,7 +69,7 @@ function circle(){
 // run circularity function
 circle();
 
-var step1Tot = sha + cir;
+var step1Tot = (sha+cir);
 console.log(step1Tot);
 	
 	// bounciness
@@ -86,7 +86,7 @@ function bounce(){
 		alert("Number not within parameters.");
 		bounce();
 	}
-	else if (bou == "" || !parseInt(bou)){
+	else if (bou == "" || !parseFloat(bou)){
 		alert("Sorry, has to be a valid number.");
 		bounce();
 	} else {
@@ -112,7 +112,7 @@ function firm(){
 		alert("Number not within parameters.");
 		firm();
 	}
-	else if (fir == "" || !parseInt(fir)){
+	else if (fir == "" || !parseFloat(fir)){
 		alert("Sorry, has to be a valid number.");
 		firm();
 	} else {
@@ -124,7 +124,7 @@ function firm(){
 firm();
 
 var step2Tot = bou + fir;
-console.log(step2Tot;)
+console.log(step2Tot);
 	
 	// texture
 var text;
@@ -140,7 +140,7 @@ function texture(){
 		alert("Number not within parameters.");
 		texture();
 	}
-	else if (text == "" || !parseInt(text)){
+	else if (text == "" || !parseFloat(text)){
 		alert("Sorry, has to be a valid number.");
 		texture();
 	} else {
@@ -154,6 +154,6 @@ texture();
 
 // calculate total score
 // REMEMBER: (S+C) x (B+F)/T
-var total = step1Tot * step2Tot / text;
+var total = step1Tot+step2Tot/text;
 console.log("The score of the hind-quater you are rating is " + total);
 
