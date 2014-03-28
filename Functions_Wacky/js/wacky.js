@@ -20,8 +20,9 @@
 ();
 
 	// shape
+var sha;
 function shape(){	
-	var sha = prompt("On a scale of 1-20, rate the shape of the behind in question.");
+	sha = prompt("On a scale of 1-20, rate the shape of the behind in question.");
 	
 	// validation
 	if (sha < 1) {
@@ -44,8 +45,9 @@ function shape(){
 shape();
 	
 	// circularity
+var cir;
 function circle(){	
-	var cir = prompt("On a scale of 1-20, rate it's circularity.");
+	cir = prompt("On a scale of 1-20, rate it's circularity.");
 	
 	// validation
 	if (cir < 1) {
@@ -68,8 +70,9 @@ function circle(){
 circle();
 	
 	// bounciness
+var bou;
 function bounce(){	
-	var bou = prompt("On a scale of 1-20, rate it's bounciness.");
+	bou = prompt("On a scale of 1-20, rate it's bounciness.");
 	
 	// validation
 	if (bou < 1) {
@@ -93,8 +96,9 @@ function bounce(){
 bounce();
 	
 	// firmness
+var fir;
 function firm(){	
-	var fir = prompt("On a scale of 1-20, rate it's firmness.");
+	fir = prompt("On a scale of 1-20, rate it's firmness.");
 	
 	// validation
 	if (fir < 1) {
@@ -117,8 +121,9 @@ function firm(){
 firm();
 	
 	// texture
+var text;
 function texture(){	
-	var text = prompt("On a scale of 1-20, rate it's texture.");
+	text = prompt("On a scale of 1-20, rate it's texture.");
 	
 	// validation
 	if (text < 1) {
@@ -142,6 +147,6 @@ texture();
 
 // calculate total score
 // REMEMBER: (S+C) x (B+F)/T = V
-var total = (shape + circle) * (bounce + firm) / text
+var total = (sha + cir) * (bou + fir) / text;
 console.log("The score of the hind-quater you are rating is " + total);
 
