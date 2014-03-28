@@ -152,6 +152,6 @@ texture();
 
 // calculate total score
 // REMEMBER: (S+C) x (B+F)/T = V
-var total = (sha + cir) * (bou + fir) / text;
+var total = (step1Tot * step2Tot) / text;
 console.log("The score of the hind-quater you are rating is " + total);
 
