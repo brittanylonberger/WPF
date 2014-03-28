@@ -10,10 +10,16 @@
 // S=overall shape, C=circulatiry, B=bounciness, F=firmness, T=texture
 
 
-// Begin function
-function backSide(){
 	// shape
 	var sha = prompt("On a scale of 1-20, rate the shape of the behind in question.");
+	if (sha < 1 || > 20) {
+		alert("Number not within parameters.");
+		sha();
+	} else if (sha == "" || !parseInt(sha)){
+		alert("Sorry, has to be a valid number.");
+		sha();
+	} else {
+		console.log("You have rated the shape as a " + sha + " on a scale of 1-20.")
 	
 	// circularity
 	var cir = prompt("On a scale of 1-20, rate it's circularity.");
