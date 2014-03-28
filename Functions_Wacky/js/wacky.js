@@ -7,7 +7,7 @@
 
 // The formula given is: (S+C) x (B+F)/T = V
 // Each variable is to be given on a scale of 1-20 (20 is the highest)
-// S=overall shape, C=circulatiry, B=bounciness, F=firmness, T=texture
+// S=overall shape, C=circulatiry, B=bounciness, F=firmness, T=texture, V=ratio of hips to waist
 
 
 // inital in-page description
@@ -68,6 +68,8 @@ function circle(){
 }
 // run circularity function
 circle();
+
+var step1Tot = sha + cir;
 	
 	// bounciness
 var bou;
@@ -119,6 +121,8 @@ function firm(){
 }
 // run firmness function
 firm();
+
+var step2Tot = bou + fir;
 	
 	// texture
 var text;
@@ -144,6 +148,7 @@ function texture(){
 }
 // run texture function
 texture();
+
 
 // calculate total score
 // REMEMBER: (S+C) x (B+F)/T = V
