@@ -86,6 +86,8 @@ bounce();
 	// firmness
 function firm(){	
 	var fir = prompt("On a scale of 1-20, rate it's firmness.");
+	
+	// validation
 	if (fir < 1) {
 		alert("Number not within parameters.");
 		firm();
@@ -102,10 +104,14 @@ function firm(){
 		return;
 	}
 }
+// run firmness function
+firm();
 	
 	// texture
 function texture(){	
 	var text = prompt("On a scale of 1-20, rate it's texture.");
+	
+	// validation
 	if (text < 1) {
 		alert("Number not within parameters.");
 		texture();
@@ -122,4 +128,6 @@ function texture(){
 		return;
 	}
 }
+// run texture function
+texture();
 
