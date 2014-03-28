@@ -14,7 +14,7 @@
 
 (function(alert1, alert2, alert3){
 	var alert1 = alert("Welcome to this nifty calculator!");
-	var alert2 = alert("This script is designed to run and determine the "perfection rating" of a woman's hind-quarters.");
+	var alert2 = alert("This script is designed to run and determine the supposed perfection of a woman's hind-quarters.");
 	var alert3 = alert(" Please remember to keep your score ratings between 1 and 20 - 20 being the highest quality.");
 })
 ();
@@ -141,8 +141,7 @@ function texture(){
 texture();
 
 // calculate total score
-function(){
-	
-	console.log("The overall rating of the behind in question calculates to a score of " )
-}
+// REMEMBER: (S+C) x (B+F)/T = V
+var total = (shape + circle) * (bounce + firm) / text
+console.log("The score of the hind-quater you are rating is " + total);
 
