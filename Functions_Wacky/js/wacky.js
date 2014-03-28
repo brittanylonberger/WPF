@@ -70,6 +70,7 @@ function circle(){
 circle();
 
 var step1Tot = sha + cir;
+console.log(step1Tot);
 	
 	// bounciness
 var bou;
@@ -123,6 +124,7 @@ function firm(){
 firm();
 
 var step2Tot = bou + fir;
+console.log(step2Tot;)
 	
 	// texture
 var text;
@@ -151,7 +153,7 @@ texture();
 
 
 // calculate total score
-// REMEMBER: (S+C) x (B+F)/T = V
-var total = (step1Tot * step2Tot) / text;
+// REMEMBER: (S+C) x (B+F)/T
+var total = step1Tot * step2Tot / text;
 console.log("The score of the hind-quater you are rating is " + total);
 
