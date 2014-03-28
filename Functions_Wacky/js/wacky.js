@@ -32,7 +32,23 @@ function shape(){
 shape();
 	
 	// circularity
+function circle(){	
 	var cir = prompt("On a scale of 1-20, rate it's circularity.");
+	if (cir < 1) {
+		alert("Number not within parameters.");
+		circle();
+	} 
+	if (cir > 20) {
+		alert("Number not within parameters.");
+		circle();
+	}
+	else if (cir == "" || !parseInt(sha)){
+		alert("Sorry, has to be a valid number.");
+		circle();
+	} else {
+		console.log("You have rated the shape as a " + cir + " on a scale of 1-20.");
+	}
+}
 	
 	// bounciness
 	var bou = prompt("On a scale of 1-20, rate it's bounciness.");
