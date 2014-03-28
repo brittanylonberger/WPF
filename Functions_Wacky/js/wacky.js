@@ -47,14 +47,14 @@ function circle(){
 		alert("Sorry, has to be a valid number.");
 		circle();
 	} else {
-		console.log("You have rated the shape as a " + cir + " on a scale of 1-20.");
+		console.log("You have rated the circularity as a " + cir + " on a scale of 1-20.");
 		return;
 	}
 }
 	
 	// bounciness
 function bounce(){	
-	var bou = prompt("On a scale of 1-20, rate it's circularity.");
+	var bou = prompt("On a scale of 1-20, rate it's bounciness.");
 	if (bou < 1) {
 		alert("Number not within parameters.");
 		bounce();
@@ -67,13 +67,30 @@ function bounce(){
 		alert("Sorry, has to be a valid number.");
 		bounce();
 	} else {
-		console.log("You have rated the shape as a " + bou + " on a scale of 1-20.");
+		console.log("You have rated the bounce as a " + bou + " on a scale of 1-20.");
 		return;
 	}
 }
 	
 	// firmness
+function firm(){	
 	var fir = prompt("On a scale of 1-20, rate it's firmness.");
+	if (fir < 1) {
+		alert("Number not within parameters.");
+		firm();
+	} 
+	if (fir > 20) {
+		alert("Number not within parameters.");
+		firm();
+	}
+	else if (fir == "" || !parseInt(fir)){
+		alert("Sorry, has to be a valid number.");
+		firm();
+	} else {
+		console.log("You have rated the firmness as a " + fir + " on a scale of 1-20.");
+		return;
+	}
+}
 	
 	// texture
 	var tex = prompt("On a scale of 1-20, rate it's texture.");
