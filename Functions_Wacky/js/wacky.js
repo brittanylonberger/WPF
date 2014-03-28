@@ -13,6 +13,8 @@
 	// shape
 function shape(){	
 	var sha = prompt("On a scale of 1-20, rate the shape of the behind in question.");
+	
+	// validation
 	if (sha < 1) {
 		alert("Number not within parameters.");
 		shape();
@@ -29,12 +31,14 @@ function shape(){
 		return;
 	}
 }
-
+// run shape function
 shape();
 	
 	// circularity
 function circle(){	
 	var cir = prompt("On a scale of 1-20, rate it's circularity.");
+	
+	// validation
 	if (cir < 1) {
 		alert("Number not within parameters.");
 		circle();
@@ -51,10 +55,14 @@ function circle(){
 		return;
 	}
 }
+// run circularity function
+circle();
 	
 	// bounciness
 function bounce(){	
 	var bou = prompt("On a scale of 1-20, rate it's bounciness.");
+	
+	// validation
 	if (bou < 1) {
 		alert("Number not within parameters.");
 		bounce();
@@ -71,6 +79,9 @@ function bounce(){
 		return;
 	}
 }
+
+// run bounciness function
+bounce();
 	
 	// firmness
 function firm(){	
@@ -93,5 +104,22 @@ function firm(){
 }
 	
 	// texture
-	var tex = prompt("On a scale of 1-20, rate it's texture.");
+function texture(){	
+	var text = prompt("On a scale of 1-20, rate it's texture.");
+	if (text < 1) {
+		alert("Number not within parameters.");
+		texture();
+	} 
+	if (text > 20) {
+		alert("Number not within parameters.");
+		texture();
+	}
+	else if (text == "" || !parseInt(text)){
+		alert("Sorry, has to be a valid number.");
+		texture();
+	} else {
+		console.log("You have rated the shape as a " + text + " on a scale of 1-20.");
+		return;
+	}
+}
 
