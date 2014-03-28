@@ -70,7 +70,6 @@ return;
 circle();
 
 var step1Tot = parseFloat(sha) + parseFloat(cir);
-console.log(step1Tot);
 
 // bounciness
 var bou;
