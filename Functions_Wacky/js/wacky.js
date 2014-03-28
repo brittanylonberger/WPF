@@ -10,6 +10,15 @@
 // S=overall shape, C=circulatiry, B=bounciness, F=firmness, T=texture
 
 
+// inital in-page description
+
+(function(alert1, alert2, alert3){
+	var alert1 = alert("Welcome to this nifty calculator!");
+	var alert2 = alert("This script is designed to run and determine the "perfection rating" of a woman's hind-quarters.");
+	var alert3 = alert(" Please remember to keep your score ratings between 1 and 20 - 20 being the highest quality.");
+})
+();
+
 	// shape
 function shape(){	
 	var sha = prompt("On a scale of 1-20, rate the shape of the behind in question.");
@@ -130,4 +139,10 @@ function texture(){
 }
 // run texture function
 texture();
+
+// calculate total score
+function(){
+	
+	console.log("The overall rating of the behind in question calculates to a score of " )
+}
 
