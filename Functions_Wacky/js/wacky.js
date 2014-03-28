@@ -26,6 +26,7 @@ function shape(){
 		shape();
 	} else {
 		console.log("You have rated the shape as a " + sha + " on a scale of 1-20.");
+		return;
 	}
 }
 
@@ -42,16 +43,34 @@ function circle(){
 		alert("Number not within parameters.");
 		circle();
 	}
-	else if (cir == "" || !parseInt(sha)){
+	else if (cir == "" || !parseInt(cir)){
 		alert("Sorry, has to be a valid number.");
 		circle();
 	} else {
 		console.log("You have rated the shape as a " + cir + " on a scale of 1-20.");
+		return;
 	}
 }
 	
 	// bounciness
-	var bou = prompt("On a scale of 1-20, rate it's bounciness.");
+function bounce(){	
+	var bou = prompt("On a scale of 1-20, rate it's circularity.");
+	if (bou < 1) {
+		alert("Number not within parameters.");
+		bounce();
+	} 
+	if (bou > 20) {
+		alert("Number not within parameters.");
+		bounce();
+	}
+	else if (bou == "" || !parseInt(bou)){
+		alert("Sorry, has to be a valid number.");
+		bounce();
+	} else {
+		console.log("You have rated the shape as a " + bou + " on a scale of 1-20.");
+		return;
+	}
+}
 	
 	// firmness
 	var fir = prompt("On a scale of 1-20, rate it's firmness.");
